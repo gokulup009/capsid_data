@@ -1,0 +1,13 @@
+This folder contains data for the paper "Packing and Ejection Dynamics of Polymers: Role of Confinement, Polymer Stiffness, and Activity."
+
+Folder Structure
+Directories like FIGn: Contain data corresponding to Figure n from the paper.
+Directories like FIGn_FIGm: Contain data corresponding to Figures n and m.
+Subdirectory Structure
+Inside each figure directory, you will find two subdirectories corresponding to different values of the stiffness parameter kappa:
+
+kappa_0: Contains data for kappa = 0.
+kappa_10: Contains data for kappa = 10.
+
+Data Format
+In these files, the header "mean" or "tau(mean)" represents the total translocation time. In the paper’s figures, the total translocation time is plotted in units of taud.
